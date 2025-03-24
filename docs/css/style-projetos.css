@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    justify-content: space-around;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4682b4;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4682b4;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #87ceeb;
+    border-radius: 5px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 80px auto 20px auto;
+    padding: 20px;
+}
+
+h1.main-title {
+    color: #4682b4;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1);
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.project-card h1 {
+    color: #4682b4;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-card img {
+    max-width: 600px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    color: #4682b4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #4682b4;
+    width: 100%;
+}
