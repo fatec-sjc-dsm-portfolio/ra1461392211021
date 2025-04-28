@@ -111,3 +111,15 @@ footer {
     color: #4682b4;
     width: 100%;
 }
+
+ul.left-align {
+    list-style-type: none; /* Remove os bullets */
+    padding-left: 0; /* Remove indentação extra */
+    text-align: left; /* Mantém o texto alinhado à esquerda */
+    font-size: 14px;
+}
+
+p.left-align {
+    text-align: left;
+    font-size: 14px;
+}
