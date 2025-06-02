@@ -1,102 +1,115 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Roboto', sans-serif;
+    }
 
-body {
-    background-color: #f0f8ff;
-    color: #333;
-    line-height: 1.6;
-}
+    body {
+        background-color: #f0f8ff;
+        color: #333;
+        line-height: 1.6;
+    }
 
-nav {
-    background-color: #ffffff;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    padding: 15px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    nav {
+        background-color: #ffffff;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        padding: 15px 0;
+        box-shadow: 0 2px 5px rgba(0, Sav 0, 0, 0, 0.1);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
 
-nav a {
-    text-decoration: none;
-    color: #4682b4;
-    font-weight: bold;
-    transition: background-color 0.3s;
-}
+    nav a {
+        text-decoration: none;
+        color: #4682b4;
+        font-weight: bold;
+        transition: background-color 0.3s;
+    }
 
-nav ul li a {
-    text-decoration: none;
-    color: #4682b4;
-    font-weight: bold;
-    padding: 10px 20px;
-    transition: background-color 0.3s;
-}
+    nav ul li a {
+        text-decoration: none;
+        color: #4682b4;
+        font-weight: bold;
+        padding: 10px 20px;
+        transition: background-color 0.3s;
+    }
 
-nav ul li a:hover {
-    background-color: #87ceeb;
-    border-radius: 5px;
-}
+    nav ul li a:hover {
+        background-color: #87ceeb;
+        border-radius: 5px;
+    }
 
-.index {
-    width: 100%;
-    padding: 15px 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: calc(100vh - 70px); /* Ajustado para ocupar a tela menos navbar e footer */
-}
+    .index {
+        width: 100%;
+        padding: 15px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: calc(100vh - 70px);
+    }
 
-.container {
-    max-width: 600px;
-    margin: 80px auto 20px auto;
-    padding: 20px;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+    .container {
+        max-width: 600px;
+        margin: 80px auto 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-h1 {
-    color: #0277bd;
-    margin-bottom: 15px;
-    font-size: 45px;
-}
+    h1 {
+        color: #0277bd;
+        margin-bottom: 15px;
+        font-size: 45px;
+    }
 
-.container p {
-    font-size: 25px;
-    color: #4682b4;
-    margin-bottom: 15px;
-}
+    .container p {
+        font-size: 25px;
+        color: #4682b4;
+        margin-bottom: 15px;
+    }
 
-.zoom-center {
-    height: auto;
-    border-radius: 25px;
-    width: 600px;
-    height: 560px;
-    object-fit: none;
-    object-position: 42%;
-    transform: scale(0.5);
-}
+    .zoom-center {
+        height: auto;
+        border-radius: 25px;
+        width: 600px;
+        height: 560px;
+        object-fit: none;
+        object-position: 42%;
+        transform: scale(0.5);
+    }
 
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #ffffff;
-    color: #4682b4;
-    width: 100%;
-}
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #ffffff;
+        color: #4682b4;
+        width: 100%;
+    }
+
+    @media (max-width: 1000px) {
+        .index {
+            flex-direction: column;
+        }
+
+        .zoom-center {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            transform: scale(0.5);
+        }
+    }
