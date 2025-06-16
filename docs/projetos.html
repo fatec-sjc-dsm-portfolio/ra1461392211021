@@ -86,22 +86,70 @@
             <div class="project-card" id="vitality">
                 <h1>4º Semestre – Vitality</h1>
                 <p class="left-align"><strong>Descrição</strong><br>
-                    O projeto Vitality teve como objetivo criar um sistema de coleta de dados de estações meteorológicas de baixo custo. Os dados são transmitidos via IoT para dashboards interativos, voltados para estudantes do ensino médio. A solução também inclui material educativo para apoiar o aprendizado em meteorologia.<br>
+                    O projeto Vitality, parte do programa API da Fatec São José dos Campos, foi proposto pela MidAll Tecnologias. Desenvolveu estações meteorológicas de baixo custo para coletar dados como vento, chuva, umidade, temperatura e pressão, transmitidos via IoT (Sigfox, LoRa, GSM) para um servidor central. Os dados são exibidos em dashboards web interativos, com foco educacional para estudantes, instalado na Escola Estadual Elmano Ferreira Veloso e na Fatec.<br>
                 </p>
                 <p class="left-align"><strong>Tecnologias usadas</strong><br>
-                    - IoT para transmissão de dados<br>
-                    - TypeScript para o back-end e APIs<br>
-                    - HTML, CSS e JavaScript para dashboards interativos
+                    - Python para o back-end e APIs de recepção de dados IoT<br>
+                    - ReactJS para o front-end e dashboards interativos<br>
+                    - PostgreSQL para armazenamento de dados<br>
+                    - Sigfox, LoRa e GSM para transmissão de dados IoT<br>
+                    - Docker para configuração de ambientes
                 </p>
                 <p class="left-align"><strong>Contribuições pessoais</strong><br>
-                    - Desenvolvi o back-end e APIs para o sistema<br>
-                    - Implementei dashboards interativos para visualização de dados<br>
-                    - Elaborei a estrutura do banco de dados para armazenamento de informações meteorológicas
+                    - Desenvolvi o back-end, implementando APIs para cadastro e recepção de dados<br>
+                    - Implementei dashboards com gráficos interativos, garantindo usabilidade e clareza<br>
+                    - Colaborei na documentação de rotas e no tutorial educacional sobre meteorologia
+                </p>
+                <a target="_blank" href="https://github.com/CopiloTTeam/vitality">
+                    <img src="static/projeto4.png" alt="Tela de Início Vitality">
+                </a>
+                <p><a href="https://github.com/CopiloTTeam/vitality" target="_blank">Repositório do Projeto</a></p>
+            </div>
+
+
+            <div class="project-card" id="sensoriamento">
+                <h1>5º Semestre – Cloud-Spark</h1>
+                <p class="left-align"><strong>Descrição</strong><br>
+                    O projeto teve como objetivo desenvolver uma aplicação web e mobile que analisa imagens do sensor WPM (CBERS4A), identificando áreas com cobertura de nuvens através de uma IA treinada para gerar máscaras automaticamente. A aplicação permite a escolha da área e período de interesse e viabiliza o download das imagens processadas.
+                </p>
+                <p class="left-align"><strong>Tecnologias usadas</strong><br>
+                    - TypeScript, React e React Native para o front-end<br>
+                    - Python e YOLO com Roboflow para o serviço de IA<br>
+                    - Prisma e PostgreSQL para banco de dados<br>
+                    - Docker e AWS para infraestrutura em nuvem
+                </p>
+                <p class="left-align"><strong>Contribuições pessoais</strong><br>
+                    - Realizei a integração entre o front-end e o back-end<br>
+                    - Estruturei o banco de dados com PostgreSQL e Prisma<br>
+                    - Desenvolvi as telas web e mobile com React e React Native
                 </p>
                 <div align="center">
-                    <img src="https://github.com/Vitality-4DSM/Documentacao/assets/73721760/a235d1e2-d9e5-40cd-a4a2-00337d35d98f" width="500" alt="Dashboard Vitality">
+                    <img src="static/imagem1.png" width="500" alt="Interface do Sistema de Sensoriamento">
                 </div>
-                <p><a href="https://github.com/Vitality-4DSM/Documentacao" target="_blank">Repositório do Projeto</a></p>
+                <p><a href="https://github.com/CloudSparkTeam/documentation" target="_blank">Repositório do Projeto</a></p>
+            </div>
+
+            <div class="project-card" id="deskdata">
+                <h1>6º Semestre – DeskData</h1>
+                <p class="left-align"><strong>Descrição</strong><br>
+                    O DeskData é uma solução orientada a dados para atendimentos inteligentes. Automatiza o tratamento de informações não estruturadas, gerando dashboards, análises de similaridade, busca semântica e sumarizações com base em processamento de linguagem natural.
+                </p>
+                <p class="left-align"><strong>Tecnologias usadas</strong><br>
+                    - Python e Pandas para processamento de dados<br>
+                    - TypeScript com Express e React (Vite) para back-end e front-end<br>
+                    - Prisma ORM com PostgreSQL para persistência<br>
+                    - Tailwind CSS e ApexCharts para visualizações<br>
+                    - Docker e AWS para ambientes em nuvem
+                </p>
+                <p class="left-align"><strong>Contribuições pessoais</strong><br>
+                    - Atuei na integração entre front-end e back-end usando Express e React<br>
+                    - Modelei e implementei o banco de dados com PostgreSQL e Prisma<br>
+                    - Realizei a extração e tratamento dos dados com Python no serviço de IA
+                </p>
+                <div align="center">
+                    <img src="static/desk.png" width="500" alt="Dashboard DeskData">
+                </div>
+                <p><a href="https://github.com/DeskData-Api/Documentacao" target="_blank">Repositório do Projeto</a></p>
             </div>
 
         </div>
